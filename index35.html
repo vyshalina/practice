@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Пример 35</title>
+</head>
+<body>
+<script>
+	color=prompt("Введите один из цветов гриба(белый, желтый, красный, коричневый)");
+	skirt=prompt("Есть ли у гриба юбка (есть, нет)?");
+	switch(color+skirt){
+	case 'белый'+'нет':
+	alert("Вы нашли белый гриб!");
+	break;
+	case 'красный'+'есть':
+	alert("а не мухомор ли это?");
+	break;
+	case 'красный'+'нет':
+	alert("может это подосиновик?");
+	break;
+	default:
+    alert("с грибами надо быть внимательными");
+	}
+</script>
+</body>
+</html>
